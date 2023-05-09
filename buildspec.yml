@@ -33,18 +33,18 @@ phases:
   post_build:
     commands:
       - echo "Post build phase ..."
-  artifacts:
-    files:
-      - app/eslint-result.json
-      - app/file.json
-      - app/server.js
-      - app/result.json
-      - app/package.json
-      - app/.eslintrc.json
-      - app/controllers/api/v1/index.js
-      - app/middleware/common-middleware.js
-      - app/test/fixtures/test.json
-      - app/test/integration/api/v1/test.js
-      - app/test/fixtures/test.json
-      - app/test/integration/api/v1/test.json
+artifacts:
+  files:
+    - app/eslint-result.json
+    - app/file.json
+    - app/server.js
+    - app/result.json
+    - app/package.json
+    - app/.eslintrc.json
+    - app/controllers/api/v1/index.js
+    - app/middleware/common-middleware.js
+    - app/test/fixtures/test.json
+    - app/test/integration/api/v1/test.js
+    - app/test/fixtures/test.json
+    - app/test/integration/api/v1/test.json
 
